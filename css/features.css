@@ -9,6 +9,20 @@
     display: flex;
     gap: 24px;
 }
+.box-features-icon {
+    background-color: #F4F4FD;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    height: 112px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.features-icon {
+    height: 64px;
+    width: 64px;
+}
 .features-list li {
     width: calc((100% - 72px) /4);
     text-align: left;
