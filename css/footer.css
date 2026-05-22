@@ -1,0 +1,16 @@
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+    padding: 100px 0;
+}
+
+/* Logo */
+.logo .studio-footer {
+    color: #F4F4FD;
+}
+.footer-logo-wrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 264px;
+    gap: 16px;
+}

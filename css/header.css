@@ -1,0 +1,46 @@
+.header {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #e7e9fc
+}
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    font-family: "Raleway", sans-serif;
+    line-height: 1.33;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-right: 76px;
+}
+.logo .web {
+    color: #4D5AE5;
+}
+.logo .studio {
+    color: #2E2F42;
+}
+/* Contact and navigace */
+.nav-list, .contact {
+    display: flex;
+    gap: 40px;
+}
+.nav-list a { 
+    display: flex;
+    padding: 24px 0; 
+}
+.address-header {
+    margin-left: auto;
+}
+.contact {
+    color: #434455;
+    font-size: 16px;
+}
+.nav-list {
+    font-size: 16px;
+    color: #2E2F42;
+    font-weight: 500;
+}
