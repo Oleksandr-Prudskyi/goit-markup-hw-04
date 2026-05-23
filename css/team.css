@@ -41,8 +41,13 @@
     height: 40px;
     width: 40px;
     border-radius: 50%;
+    background-color: #4D5AE5;
 }
 .team-icon {
     height: 40px;
     width: 40px;
+}
+.my-social-link:hover,
+.my-social-link:focus {
+    background-color: #404BBF;
 }

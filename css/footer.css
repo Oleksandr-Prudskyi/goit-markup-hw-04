@@ -24,5 +24,28 @@
     max-width: 264px;
     gap: 16px;
 }
-/* Social-link основна частина коду в team.css */
+/* Social-link company*/
+.box-footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #404BBF;
+}
+.footer-icon-link {
+    height: 40px;
+    width: 40px;
+}
+.social-link:hover,
+.social-link:focus {
+    background-color: #31D0AA;
+}
 

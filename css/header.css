@@ -42,7 +42,8 @@
 .nav-list a.current-location {
     color: #404BBF;
 }
-.nav-list a.current-location::after {
+.nav-list a.current-location::after,
+.nav-list a:focus::after {
     content: "";
     position: absolute;
     left: 0;
