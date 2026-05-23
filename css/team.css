@@ -38,11 +38,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 40px;
-    max-width: 40px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
 }
 .team-icon {
-    height: auto;
-    width: auto;
+    height: 40px;
+    width: 40px;
 }

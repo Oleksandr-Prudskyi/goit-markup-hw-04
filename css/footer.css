@@ -1,9 +1,19 @@
 .footer {
     background-color: #2E2F42;
-    color: #F4F4FD;
     padding: 100px 0;
 }
-
+.footer-list {
+    display: flex;
+    gap: 120px;
+}
+.footer-list h3, .footer-list p {
+    color: #F4F4FD;
+}
+.footer-contain {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
 /* Logo */
 .logo .studio-footer {
     color: #F4F4FD;
@@ -14,3 +24,5 @@
     max-width: 264px;
     gap: 16px;
 }
+/* Social-link основна частина коду в team.css */
+
