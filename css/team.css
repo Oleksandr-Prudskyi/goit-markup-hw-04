@@ -1,8 +1,10 @@
 .team {
     background-color: #f4f4fd;
     padding: 120px 0;
+    margin: 0 auto;
+    max-width: 1440px;
 }
-.h2 {
+.our-team-h2 {
     text-align: center;
 }
 .team-list {
@@ -41,16 +43,16 @@
     align-items: center;
     height: 40px;
     width: 40px;
-    fill: #FFFFFF;
+    fill: #f4f4fd;
     border-radius: 50%;
     background-color: #4D5AE5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
                 transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-icon {
+/* .team-icon {
     width: 16px;
     height: 16px;
-}
+} */
 .my-social-link:hover,
 .my-social-link:focus {
     background-color: #404BBF;
