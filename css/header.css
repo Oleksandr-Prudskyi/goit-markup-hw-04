@@ -42,13 +42,13 @@
     position: relative;
     transition: color 250ms ease-in-out;
 }
-.nav-list .navigace-a:hover,
-.nav-list .navigace-a:focus,
-.nav-list .current-location {
+.navigace-a:hover,
+.navigace-a:focus,
+.current-location {
     color: #404BBF;
 }
-.nav-list .current-location::after,
-.nav-list .navigace-a:focus::after {
+.current-location::after,
+.navigace-a:focus::after {
     content: "";
     position: absolute;
     left: 0;

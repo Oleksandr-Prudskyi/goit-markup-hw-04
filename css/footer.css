@@ -4,24 +4,30 @@
     margin: 0 auto;
     max-width: 1440px;
 }
-.footer-list {
+.footer .container {
+    display: flex;
+}
+.footer-logo {
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
+    max-width: 264px;
+    gap: 16px;
 }
 .logo-p {
     color: #F4F4FD;
 }
-.footer-contain {
+.footer-media {
     display: flex;
     flex-direction: column;
+    height: 80px;
     gap: 16px;
 }
 /* Logo */
 .logo .studio-footer {
     color: #F4F4FD;
 }
-.footer-logo-wrap {
+.footer-logo {
     display: flex;
     flex-direction: column;
     max-width: 264px;
@@ -29,10 +35,8 @@
     margin-right: 120px;
 }
 /* Social-link company*/
-.box-footer-links {
+.wrap-social-footer {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     gap: 16px;
 }
 .social-link {
@@ -42,7 +46,6 @@
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    fill: #f4f4fd;
     background-color: #4d5ae5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
                 transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -51,10 +54,9 @@
     font-weight: 500;
     color: #FFFFFF;
 }
-/* .footer-icon {
-    height: 24px;
-    width: 24px;
-} */
+.footer-icon {
+    fill: #f4f4fd;
+}
 .social-link:hover,
 .social-link:focus {
     background-color: #31D0AA;
