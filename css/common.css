@@ -10,7 +10,6 @@ body, h1, h2, h3, h4, p, ul, ol {
     margin: 0 auto;
     padding: 0 15px;
     display: block;
-    flex-wrap: wrap;
 }
 .page-container {
 	min-height: 100vh;

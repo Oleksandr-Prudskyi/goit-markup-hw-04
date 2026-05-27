@@ -42,13 +42,7 @@
     position: relative;
     transition: color 250ms ease-in-out;
 }
-.navigace-a:hover,
-.navigace-a:focus,
-.current-location {
-    color: #404BBF;
-}
-.current-location::after,
-.navigace-a:focus::after {
+.current-location::after {
     content: "";
     position: absolute;
     left: 0;
