@@ -31,15 +31,19 @@
 /* Social-link company*/
 .footer-media {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 16px;
     width: 208px;
     height: 80px;
+    align-content: flex-start;
 }
-.wrap-social {
+.footer-media li:first-child {
+    width: 100%;
+}
+/* .wrap-social {
     display: flex;
     gap: 16px;
-}
+} */
 .social-link {
     display: flex;
     justify-content: center;
