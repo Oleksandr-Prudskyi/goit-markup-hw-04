@@ -33,7 +33,7 @@
 }
 .navigace-a:hover, 
 .contact-a:hover, 
-.navigace-afocus:focus, 
+.navigace-a:focus:focus, 
 .contact-a:focus{
     color: #404BBF;
 }
