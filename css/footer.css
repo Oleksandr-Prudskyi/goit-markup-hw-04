@@ -11,39 +11,32 @@
 .logo .studio-footer {
     color: #F4F4FD;
 }
-.footer-logo {
-    display: flex;
-    flex-direction: column;
+.wrap-logo {
     max-width: 264px;
-    gap: 16px;
     margin-right: 120px;
 }
 .footer-logo {
     display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    max-width: 264px;
+    flex-direction: column;
     gap: 16px;
 }
 .logo-p {
     color: #F4F4FD;
 }
 /* Social-link company*/
+.wrap-media {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
 .footer-media {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
     width: 208px;
-    height: 80px;
+    height: auto;
     align-content: flex-start;
 }
-.footer-media li:first-child {
-    width: 100%;
-}
-/* .wrap-social {
-    display: flex;
-    gap: 16px;
-} */
 .social-link {
     display: flex;
     justify-content: center;
@@ -56,6 +49,11 @@
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-p {
+    display: block;
+    width: 100%;
+    flex-wrap: wrap;
+    /* align-items: flex-start;
+    width: 100%; */
     font-weight: 500;
     color: #FFFFFF;
 }

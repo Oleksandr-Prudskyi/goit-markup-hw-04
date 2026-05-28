@@ -42,6 +42,9 @@
     position: relative;
     transition: color 250ms ease-in-out;
 }
+.current-location {
+    color: #404BBF;
+}
 .current-location::after {
     content: "";
     position: absolute;
