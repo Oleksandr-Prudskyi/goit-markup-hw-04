@@ -31,6 +31,12 @@
 .logo .studio {
     color: #2E2F42;
 }
+.navigace-a:hover, 
+.contact-a:hover, 
+.navigace-afocus:focus, 
+.contact-a:focus{
+    color: #404BBF;
+}
 /* Contact and navigace */
 .nav-list, .contact {
     display: flex;

@@ -14,8 +14,6 @@
 .wrap-logo {
     max-width: 264px;
     margin-right: 120px;
-}
-.footer-logo {
     display: flex;
     flex-direction: column;
     gap: 16px;
